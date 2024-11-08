@@ -22,7 +22,7 @@ def main():
     # 페이지 설정 (Streamlit 상단 바 구성)
     st.set_page_config(page_title="4-6", page_icon="❤️")  # 웹 페이지 제목과 아이콘 설정
     st.image('society.png')  # 상단에 이미지를 표시
-    st.title("_:red[사회 퀴즈 연습하기]_ 🏫")  # 제목 표시 (에너지 학습 도우미)
+    st.title("_:green[사회 퀴즈 연습하기]_ 🏫")  # 제목 표시 (에너지 학습 도우미)
     st.header("😶모르는 단어를 물어보거나, 연습 문제를 만들고 풀어보세요!", divider='rainbow')  # 주의사항 표시
 
     # 세션 상태 초기화
